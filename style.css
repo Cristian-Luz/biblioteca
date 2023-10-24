@@ -1,0 +1,55 @@
+main {
+    display: flex;
+    flex-direction: column; /* Isso torna os elementos filhos alinhados verticalmente */
+    justify-content: center; /* Centraliza horizontalmente */
+    align-items: center; /* Centraliza verticalmente */
+    height: 50vh; /* Isso garante que o conteúdo seja centralizado na altura da janela */
+}
+
+body {
+    background-image: url('./imagens/img-biblioteca.jpg'); /* Substitua 'caminho-da-imagem.jpg' pelo caminho da sua imagem */
+    background-size: cover; /* Isso faz com que a imagem cubra todo o fundo */
+    background-repeat: no-repeat; /* Evita que a imagem se repita */
+    background-attachment: fixed; /* Fixa a imagem no lugar, se desejar um efeito de paralaxe */
+}
+
+h1 {
+    color: rgb(255, 255, 255);
+    text-align: center;
+    margin-top: 150px;
+    text-shadow: 3px 3px 10px rgb(0, 17, 255); /* Cor da sombra: preta com 50% de transparência */
+}
+
+#main-section {
+    display: flex;
+    height: 350px;
+    width: 1250px;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    
+}
+
+.main-section-link {
+    height: 100px;
+    width: 350px;
+    display: flex;
+    margin: 15px;
+    color: white;
+    border: rgb(255, 255, 255) solid 2px;
+    align-items: center;
+    justify-content: center;
+    text-decoration: none; /* Remove o sublinhado */
+    text-shadow: 4px 4px 15px rgb(255, 255, 255); /* Cor da sombra: preta com 50% de transparência */
+    border-radius: 30px;
+    font-size: 20px;
+    background-image: url('./imagens/back-btn.jpg');
+    background-repeat: no-repeat; /* Evita que a imagem se repita */
+    background-attachment: fixed;
+    background-size: 80%;
+}
+
+.main-section-link:hover{
+    font-size: 24px;
+}
+
