@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Biblioteca</title>
+  <link rel="stylesheet" type="text/css" href="./css/styleBiblioteca.css">
+  <link rel="icon" href="https://img.icons8.com/?size=50&id=JpGSJXycgAYe&format=png" type="image/icon">
+</head>
+<body>
+  <header>
+    <h1 id="title">LIVROS DA FACULDADE</h1>
+    <section id="se-pesquisa">
+      <input type="text" name="pesquisa" id="input-pesquisa" placeholder="PESQUISE SEU LIVRO AQUI">
+    </section>
+    <section id="se-pesquisa">
+      <button class="btn-az" id="btn-nome-az">NOME A - Z</button>
+      <button class="btn-az" id="btn-materia-az">MATÉRIA A - Z</button>
+    </section>
+    <section class="biblioteca">
+      <ul class="lista-livros" id="lista-livros">
+        <!-- Seus itens serão adicionados aqui -->
+      </ul>
+    </section>
+  </header>
+  <main>
+    <section>
+      <button id="btn-adicionar" class="btn-adicionar">
+        +
+      </button>
+      <section id="se-adicionar-livro" class="se-adicionar-livro">
+        <div id="div-adicionar-livro" class="div-adicionar-livro">
+          <input type="submit" id="btn-fechar" class="btn-fechar" value="X">
+          <h1>ADICIONAR LIVRO</h1>
+          <form id="div-input-adicionar-livro">
+            <div class="div-input">
+              <input type="text" name="nomveLivro" id="input-nome" class="input-nome-materia" placeholder="NOME DO LIVRO">
+            </div>
+            <div class="div-input">
+              <input type="text" name="materiaLivro" id="input-materia" class="input-nome-materia" placeholder="MATÉRIA DO LIVRO">
+            </div>
+            <div>
+              <button id="pdfFile" class="ipt-file">Arquivo (PDF)</button>
+              <input type="file" name="pdfFile" id="input-pdf" class="input-file" accept=".pdf">
+            </div>
+            <div>
+              <button id="pngFile" class="ipt-file">Imagem (PNG)</button>
+              <input type="file" name="pngFile" id="input-png" class="input-file" accept=".png">
+              <div>
+                <label>TAMANHO DA IMAGEM <br> LARGURA 275 x 400 ALTURA</label>
+              </div>
+            </div>
+            <button id="btn-adc">ADICIONAR LIVRO</button>
+          </form>  
+        </div>
+      </section>
+    </section>
+  </main>
+  <footer>
+  </footer>
+  <script src="./javascript/scriptBiblioteca.js"></script>
+</body>
+</html>

@@ -1,0 +1,259 @@
+/* GERAL */
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-color: rgb(0, 0, 0);
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+}
+
+li{
+    list-style: none;
+}
+/* Barra de rolagem */
+body::-webkit-scrollbar {
+    width: 12px;
+}
+/* Fundo da barra de rolagem */
+body::-webkit-scrollbar-track {
+    background: #000000;
+}
+
+/* Barra de rolagem em si */
+body::-webkit-scrollbar-thumb {
+    background: #ffffff;
+    border: 2px solid #000000;
+    border-radius: 25px;
+}
+
+/* Alça de arrastar da barra de rolagem */
+body::-webkit-scrollbar-thumb:hover {
+    background: #fbff00;
+}
+
+/* Barra de rolagem */
+textarea::-webkit-scrollbar {
+    width: 12px;
+}
+/* Fundo da barra de rolagem */
+textarea::-webkit-scrollbar-track {
+    background: #ffffff;
+}
+
+/* Barra de rolagem em si */
+textarea::-webkit-scrollbar-thumb {
+    background: #000000;
+    border: 5px solid #ffffff;
+}
+
+/* Alça de arrastar da barra de rolagem */
+textarea::-webkit-scrollbar-thumb:hover {
+    background: #fbff00;
+}
+
+/* HEADER */
+
+#title{
+    color: white;
+    text-align: center;
+    padding: 15px 0;
+}
+
+#se-pesquisa{
+    text-align: center;
+    padding-bottom: 10px;
+}
+
+#input-pesquisa{
+    height: 30px;
+    width: 75%;
+    padding: 5px 10px 5px 10px;
+    text-align: center;
+    border-radius: 10px;
+    outline: none;
+    border: none;
+    text-transform: uppercase;
+}
+
+/* FIXO */
+
+#btn-adicionar {
+    border-radius: 50%;
+    cursor: pointer;
+    position: fixed;
+    bottom: 20px;
+    right: 24px;
+    font-size: 50px;
+    padding: 0 15px;
+}
+
+#btn-adicionar:hover{
+    background-color: rgb(163, 163, 163);
+}
+
+/* ADICIONAR LIVRO */
+
+#div-adicionar-livro{
+    text-align: center;
+    color: #314c53;
+    background-color: #bbdec6;
+    border: 5px solid #314c53;
+    border-radius: 35px;
+    position: absolute;
+    top: 25%;
+    padding: 10px 25px 25px 25px; 
+}
+
+#div-input-adicionar-livro{
+    display: block;
+    padding: 25px; 
+}
+
+#btn-adc{
+    margin-top: 50px;
+    padding: 5px 15px 5px 15px;
+    border-radius: 5px;
+    background-color: #314c53;
+    color: white;
+    cursor: pointer;
+    width: 300px;
+    font-size: 15px;
+}
+
+#btn-adc:hover{
+    background-color: rgb(140, 140, 140);
+}
+
+.div-input{
+    padding: 5px;
+}
+
+.input-nome-materia{
+    padding: 5px 15px 5px 15px;
+    width: 300px;
+    text-align: center;
+    border-radius: 5px;
+    font-size: 15px;
+    outline: none;
+}
+
+.input-file{
+    padding: 15px;
+    display: none;
+}
+
+.ipt-file{
+    margin: 5px 0 5px 0;
+    padding: 5px 15px 5px 15px;
+    border-radius: 5px;
+    background-color: white;
+    color: black;
+    width: 335px;
+    cursor: pointer;
+    font-size: 15px;
+}
+
+.ipt-file:hover{
+    background-color: rgb(140, 140, 140);
+}
+
+#se-adicionar-livro {
+    display: none;
+    justify-content: center; /* Centraliza horizontalmente */
+    align-items: center;     /* Centraliza verticalmente */
+    height: 100%;
+}
+
+#btn-fechar{
+    display: block;
+    margin-left: auto; 
+    margin-right: 0; 
+    color: rgb(0, 0, 0);
+    background-color: #bbdec6;
+    padding: 5px;
+    margin-bottom: 2px;
+    font-size: 25px;
+    cursor: pointer;
+    outline: none;
+    border: none; 
+}
+
+/* LIVROS */
+
+.lista-livros{
+    color: rgb(255, 255, 255);
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 60px;
+    margin-top: 70px;
+}
+
+.imagem-livro {
+    width: 275px;
+    height: 400px;
+    display: flex;
+    text-align: center;
+    cursor: pointer;
+}
+
+.biblioteca{
+    text-align: center;
+}
+
+.livro-nome{
+    text-transform: uppercase;
+    font-size: 18px;
+    word-wrap: break-word;
+}
+
+.livro-materia{
+    text-transform: uppercase;
+    font-size: 15px;
+    padding: 0 0 25px 0;
+    word-wrap: break-word;
+}
+
+.botao{
+    margin: 0 5px;
+    text-transform: uppercase;
+    width: 120px;
+    height: 25px;
+    background-color: white;
+    color: black;
+    border: 1px solid;
+    border-radius: 8px;
+    cursor: pointer;
+}
+
+.classe-li{
+    max-width: 275px;
+    height: 575px;
+}
+
+.classe-da-div {
+    padding: 12px 0;
+    width: 275px;
+    height: 40px;
+    
+}
+
+.classe-da-div-btn{
+    bottom: 0;
+}
+
+.btn-az{
+    margin: 0 5px;
+    text-transform: uppercase;
+    width: 142px;
+    height: 33px;
+    background-color: white;
+    color: black;
+    border: 1px solid;
+    border-radius: 8px;
+    cursor: pointer;
+}
+
