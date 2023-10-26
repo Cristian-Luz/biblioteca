@@ -13,11 +13,24 @@ body {
     background-attachment: fixed; /* Fixa a imagem no lugar, se desejar um efeito de paralaxe */
 }
 
+header{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
 h1 {
     color: rgb(255, 255, 255);
     text-align: center;
     margin-top: 150px;
     text-shadow: 3px 3px 10px rgb(0, 17, 255); /* Cor da sombra: preta com 50% de transparência */
+    height: 100px;
+    width: 350px;
+    background-color: #0000006e;
+    border: rgb(0, 17, 255) solid 2px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
 #main-section {
@@ -31,20 +44,19 @@ h1 {
 }
 
 .main-section-link {
-    height: 100px;
+    height: 200px;
     width: 350px;
     display: flex;
-    margin: 15px;
+    margin: 3px;
     color: white;
     border: rgb(255, 255, 255) solid 2px;
     align-items: center;
     justify-content: center;
-    text-decoration: none; /* Remove o sublinhado */
-    text-shadow: 4px 4px 15px rgb(255, 255, 255); /* Cor da sombra: preta com 50% de transparência */
-    border-radius: 30px;
+    text-decoration: none;
+    text-shadow: 4px 4px 15px rgb(255, 255, 255);
+    border-radius: -3px;
     font-size: 20px;
-    background-image: url('./imagens/back-btn.jpg');
-    background-repeat: no-repeat; /* Evita que a imagem se repita */
+    background-color: #0000006e;
     background-attachment: fixed;
     background-size: 80%;
 }
