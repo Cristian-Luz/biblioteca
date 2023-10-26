@@ -23,10 +23,10 @@ h1 {
     color: rgb(255, 255, 255);
     text-align: center;
     margin-top: 150px;
-    text-shadow: 3px 3px 10px rgb(0, 17, 255); /* Cor da sombra: preta com 50% de transparência */
-    height: 100px;
-    width: 350px;
-    background-color: #0000006e;
+    text-shadow: 3px 3px 10px rgb(0, 17, 255);
+    height: 50px;
+    width: 1080px;
+    background-color: #000000d2;
     border: rgb(0, 17, 255) solid 2px;
     display: flex;
     align-items: center;
@@ -56,7 +56,7 @@ h1 {
     text-shadow: 4px 4px 15px rgb(255, 255, 255);
     border-radius: -3px;
     font-size: 20px;
-    background-color: #0000006e;
+    background-color: #000000b2;
     background-attachment: fixed;
     background-size: 80%;
 }
